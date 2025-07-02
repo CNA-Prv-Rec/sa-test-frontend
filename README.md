@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Project overview
+
+React front end tech test for a company. The test was only required to read data from a csv, return it to the front end for display. Not rocket science. There is a corresponding server-side microservices project at https://github.com/CNA-Prv-Rec/SATechTest which delivers the back end functionality.
+
+No azure requirement.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
