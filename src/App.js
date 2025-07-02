@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+
+import StatusFetcher from './components/StatusFetcher';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1 className="company">Social Ability</h1>
+
+        <h3 className="heading">Machine Status</h3>
+
+        <div className="centerDiv">
+            <table className="statusTable">
+              <thead>
+              <tr><th>Serial No.</th><th>Status</th><th>&nbsp;</th></tr>
+              </thead>
+              <tbody>
+              <StatusFetcher />
+              </tbody>
+            </table>
+
+        </div>
+   
+      
     </div>
   );
 }

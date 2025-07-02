@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #3b82bd;
+
 }
 
 .App-logo {
@@ -35,4 +37,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table.statusTable{
+border:1px;
+border-color: #fdd916;
+background-color: #fdd916;;
+border-style:solid;
+align-self:center;
+margin-left:auto; 
+margin-right:auto;
+}
+
+tr.machine{
+  border-bottom:1px;
+  border-color: #fdd916;
+  border-style:solid;
+}
+
+td{
+  margin:10px;
+  padding: 0 15px;
+  background-color: #3b82bd;;
+
+}
+.centerDiv{
+  align-items: center;
+  align-content: center;
+width: 100%;
+
+}
+
+h1.company{
+  color:#fdd916;
+}
+
+h3.heading{
+  color:#fdd916;
 }
